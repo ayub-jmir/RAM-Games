@@ -1,10 +1,11 @@
 <?php
 
 	// For accessing database:
-	$db = "aftaba_ant";
-	$hn = "localhost";
-	$un = "aftaba_root";
-	$pw = "Ayub321";
+//add values for db connection
+// 	$db = "";
+// 	$hn = "";
+// 	$un = "";
+// 	$pw = "";
 	
 	// For salting passwords:
 	$pre_salt = '@$%!';

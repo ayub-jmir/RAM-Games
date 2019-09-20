@@ -25,12 +25,6 @@ $conn = mysqli_connect("$hn", "$un", "$pw", "$db");
 		$hashed_password = hash('ripemd128', "$pre_salt$password$post_salt");
 		return $conn->real_escape_string($hashed_password);
 	} */
-/*
--- To log into database:
---Database:	poelvoo_fp
---Host:	localhost
---Username:	poelvoo_fp
---Password:	mypassword
-*/
+
 
 ?>

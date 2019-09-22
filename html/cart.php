@@ -1,5 +1,6 @@
 <?php
 	// Server should keep session data for AT LEAST 1 hour
+	// Then erase it
 	ini_set('session.gc_maxlifetime', 3600);
 
 	// Each client should remember their session id for EXACTLY 1 hour
